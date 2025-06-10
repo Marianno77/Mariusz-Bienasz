@@ -14,8 +14,8 @@ Stale się uczę, rozwijam i staram się robić rzeczy, z których byłby dumny 
 Krótki opis projektu:
 
 🛠️ Technologie:
-- technologia 1
-- technologia 2
+- PHP (Laravel)
+- JavaScript (Vue)
   
 📎 Funkcje:
 - funkcja 1
