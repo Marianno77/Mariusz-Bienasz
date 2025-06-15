@@ -1,8 +1,8 @@
 [
   {
     "title": "Memory Game",
-    "short": "Gra memory stworzona w Laravelu i Vue, pozwalająca graczowi ćwiczyć pamięć poprzez dopasowywanie par kart.",
-    "description": "MemoryGame to gra przeglądarkowa polegająca na dopasowywaniu kart, stworzona przy użyciu Laravel i Vue.js.Gracze muszą znaleźć pasujące pary na trzech poziomach trudności. Gra śledzi czas i ruchy.Gra zawiera animowane karty, interaktywne tła i nowoczesny design. Interfejs jest w pełni responsywny, zapewniając płynną rozgrywkę zarówno na komputerach stacjonarnych, jak i urządzeniach mobilnych.",
+    "short": "Przeglądarkowa gra pamięciowa stworzona z wykorzystaniem Laravel i Vue.js, pozwalająca ćwiczyć pamięć poprzez dopasowywanie par kart.",
+    "description": "Memory Game to angażująca gra przeglądarkowa, w której zadaniem gracza jest odnalezienie par pasujących kart. Projekt powstał w oparciu o Laravel i Vue.js.\n\nGra oferuje trzy poziomy trudności oraz śledzi czas i liczbę wykonanych ruchów, co dodaje element rywalizacji. Dzięki animowanym kartom i interaktywnym tłom, rozgrywka jest dynamiczna i przyjemna wizualnie.\n\nCałość została zaprojektowana z myślą o pełnej responsywności, dzięki czemu Memory Game działa płynnie na komputerach oraz urządzeniach mobilnych.",
     "technologies": ["Laravel", "Vue.js", "HTML", "CSS", "JS"],
     "images": ["data/MemoryGame/Memory1.png", "data/MemoryGame/Memory2.png", "data/MemoryGame/Memory3.png", "data/MemoryGame/Memory4.png", "data/MemoryGame/Memory5.png", "data/MemoryGame/Memory6.png"],
     "repo": "https://github.com/Marianno77/MemoryGame"
@@ -10,54 +10,55 @@
 
   {
     "title": "Wave Chat",
-    "short": "Responsywny komunikator tekstowy ",
-    "description": "WaveChat to responsywna aplikacja webowa do komunikacji tekstowej. Użytkownicy mogą zakładać konta, wysyłać zaproszenia, blokować się, wysyłać wiadomości z emotkami oraz ustawiać własne zdjęcia profilowe (avatary).",
-    "technologies": ["Laravel", "Vue.js", "Pusher", "Laravel Echo" , "HTML", "CSS", "JS"],
+    "short": "Responsywna aplikacja webowa do komunikacji tekstowej z możliwością zarządzania kontaktami i personalizacji profilu.",
+    "description": "Wave Chat to nowoczesna, responsywna aplikacja do komunikacji tekstowej. Użytkownicy mogą zakładać konta, wysyłać zaproszenia do znajomych, blokować kontakty oraz prowadzić rozmowy z emotikonami.\n\nDodatkowo, aplikacja pozwala na ustawianie indywidualnych zdjęć profilowych (avatarów), co zwiększa personalizację. Projekt wykorzystuje Laravel, Vue.js oraz technologie Pusher i Laravel Echo do obsługi wiadomości w czasie rzeczywistym.",
+    "technologies": ["Laravel", "Vue.js", "Pusher", "Laravel Echo", "HTML", "CSS", "JS"],
     "images": ["data/WaveChat/Wave1.png", "data/WaveChat/Wave2.png", "data/WaveChat/Wave3.png", "data/WaveChat/Wave4.png", "data/WaveChat/Wave5.png", "data/WaveChat/Wave6.png", "data/WaveChat/Wave7.png", "data/WaveChat/Wave8.png", "data/WaveChat/Wave9.png", "data/WaveChat/Wave10.png", "data/WaveChat/Wave11.png"],
     "repo": "https://github.com/Marianno77/WaveChat"
   },
 
   {
     "title": "Tic Tac Toe",
-    "short": "Gra w kółko i krzyżyk z botem AI stworzona w Java Script",
-    "description": "Gra w Kółko-krzyżyk z możliwością gry w trybie Gracz vs Gracz lub Gracz vs AI. Gra zawiera podstawową logikę wykrywania zwycięzcy, a także możliwość resetowania wyniku i wyświetlania historii ruchów.",
-    "technologies":["JS", "HTML", "CSS"],
-    "images":["data/TicTacToe/Image1.png", "data/TicTacToe/Image2.png", "data/TicTacToe/Image3.png", "data/TicTacToe/Image4.png", "data/TicTacToe/Image5.png"],
+    "short": "Klasyczna gra kółko i krzyżyk z możliwością rywalizacji z botem AI lub innym graczem.",
+    "description": "Tic Tac Toe to prosta gra w kółko i krzyżyk oferująca dwa tryby rozgrywki: Gracz vs Gracz oraz Gracz vs AI. Gra implementuje podstawową logikę wykrywania zwycięzcy oraz umożliwia resetowanie wyniku i przeglądanie historii ruchów.\n\nProjekt stworzony w czystym JavaScript, HTML i CSS, zapewniający płynną rozgrywkę zarówno na komputerach, jak i urządzeniach mobilnych.",
+    "technologies": ["JS", "HTML", "CSS"],
+    "images": ["data/TicTacToe/Image1.png", "data/TicTacToe/Image2.png", "data/TicTacToe/Image3.png", "data/TicTacToe/Image4.png", "data/TicTacToe/Image5.png"],
     "repo": "https://github.com/Marianno77/TicTacToe"
   },
 
   {
     "title": "ReadRate",
-    "short": "Strona o książkach stworzonych w technologii Django.",
-    "description": "ReadRate to aplikacja internetowa stworzona w Django, która umożliwia:<ul><li>Zakładanie kont i logowanie</li><li>Wyszukiwanie książek i autorów</li><li>Dodawanie recenzji i ocen</li><li>Tworzenie list przeczytanych książek</li><li>Obserwowanie ulubionych autorów</li></ul>",
-    "technologies":["Django", "HTML", "CSS", "JS"],
-    "images":["data/ReadRate/Image1.png", "data/ReadRate/Image2.png", "data/ReadRate/Image3.png", "data/ReadRate/Image4.png", "data/ReadRate/Image5.png", "data/ReadRate/Image6.png", "data/ReadRate/Image7.png", "data/ReadRate/Image8.png", "data/ReadRate/Image9.png", "data/ReadRate/Image10.png", "data/ReadRate/Image11.png"],
+    "short": "Aplikacja Django do zarządzania książkami, recenzjami i śledzenia ulubionych autorów.",
+    "description": "ReadRate to zaawansowana aplikacja internetowa stworzona w Django, która umożliwia użytkownikom zakładanie kont, logowanie, wyszukiwanie książek i autorów oraz dodawanie recenzji i ocen.\n\nDodatkowo, użytkownicy mogą tworzyć listy przeczytanych książek oraz obserwować swoich ulubionych autorów, co pozwala na łatwe śledzenie literackich nowości i rekomendacji.",
+    "technologies": ["Django", "HTML", "CSS", "JS"],
+    "images": ["data/ReadRate/Image1.png", "data/ReadRate/Image2.png", "data/ReadRate/Image3.png", "data/ReadRate/Image4.png", "data/ReadRate/Image5.png", "data/ReadRate/Image6.png", "data/ReadRate/Image7.png", "data/ReadRate/Image8.png", "data/ReadRate/Image9.png", "data/ReadRate/Image10.png", "data/ReadRate/Image11.png"],
     "repo": "https://github.com/Marianno77/ReadRate"
   },
 
   {
     "title": "CarShowroom",
-    "short": "Prosta strona internetowa dla salonu samochodowego",
-    "description": "Projekt przedstawia nowoczesną stronę internetową marki Mercedes, zaprojektowaną z myślą o elegancji, funkcjonalności i łatwej nawigacji. Użytkownik ma możliwość przeglądania oferty pojazdów, konfigurowania wybranych modeli, a także bezpośredniego kontaktu oraz umówienia się na jazdę próbną.",
-    "technologies":["Django", "HTML", "CSS", "JS"],
-    "images":["data/CarShowroom/Image1.png", "data/CarShowroom/Image2.png", "data/CarShowroom/Image3.png", "data/CarShowroom/Image4.png", "data/CarShowroom/Image5.png", "data/CarShowroom/Image6.png"],
+    "short": "Nowoczesna strona internetowa salonu samochodowego marki Mercedes z konfiguracją pojazdów i kontaktem.",
+    "description": "CarShowroom to elegancka i funkcjonalna strona internetowa stworzona w Django, dedykowana salonowi samochodowemu Mercedes. Użytkownicy mogą przeglądać ofertę pojazdów, konfigurować modele zgodnie z własnymi preferencjami oraz łatwo kontaktować się w celu umówienia jazdy próbnej.\n\nProjekt skupia się na intuicyjnej nawigacji i atrakcyjnym wizualnie designie, co zapewnia komfort użytkowania.",
+    "technologies": ["Django", "HTML", "CSS", "JS"],
+    "images": ["data/CarShowroom/Image1.png", "data/CarShowroom/Image2.png", "data/CarShowroom/Image3.png", "data/CarShowroom/Image4.png", "data/CarShowroom/Image5.png", "data/CarShowroom/Image6.png"],
     "repo": "https://github.com/Marianno77/CarShowroom"
+  },
+
+  {
+    "title": "Looply",
+    "short": "System zarządzania zadaniami oparty na kalendarzu, skupiający się na zadaniach cyklicznych i śledzeniu postępów.",
+    "description": "Looply to aplikacja do zarządzania zadaniami, która pozwala użytkownikom tworzyć i śledzić zadania w oparciu o kalendarz. Projekt kładzie szczególny nacisk na obsługę zadań cyklicznych oraz szczegółowe monitorowanie postępów.\n\nDzięki przejrzystemu interfejsowi i wykorzystaniu bibliotek do wizualizacji danych, Looply pomaga efektywnie planować i organizować pracę.",
+    "technologies": ["Laravel", "HTML", "CSS", "JS", "JavaScript charting library"],
+    "images": ["data/Looply/Image1.png", "data/Looply/Image2.png", "data/Looply/Image3.png", "data/Looply/Image4.png", "data/Looply/Image5.png"],
+    "repo": "https://github.com/Marianno77/Looply"
   },
   
   {
-    "title": "Looply",
-    "short": "Kalendarz z zadaniami dodanymi przez użytkowników i ich wynikami.",
-    "description": "Looply to system zarządzania zadaniami oparty na kalendarzu, który pozwala użytkownikom tworzyć, śledzić i zarządzać zadaniami, koncentrując się na zadaniach cyklicznych oraz szczegółowym śledzeniu postępów.",
-    "technologies":["Laravel", "HTML", "CSS", "JS", "JavaScript charting library"],
-    "images":["data/Looply/Image1.png", "data/Looply/Image2.png", "data/Looply/Image3.png", "data/Looply/Image4.png", "data/Looply/Image5.png"],
-    "repo": "https://github.com/Marianno77/Looply"
-  },
-  {
     "title": "Space Run",
-    "short": "Prosta gra mobilna typu 'Endless runner'",
-    "description": "Mobilna gra zręcznościowa, w której celem jest zdobycie jak najwyższego wyniku. Po drodze gracz zbiera monety, które może wykorzystać w sklepie do odblokowania nowych postaci. Rozgrywce towarzyszy dynamiczna muzyka, efekty dźwiękowe oraz wibracje, które wzmacniają immersję.",
-    "technologies":["Unity", "C#"],
-    "images":["data/SpaceRun/Image1.jpg", "data/SpaceRun/Image2.jpg", "data/SpaceRun/Image3.jpg", "data/SpaceRun/Image4.jpg", "data/SpaceRun/Image5.jpg", "data/SpaceRun/Image6.jpg", "data/SpaceRun/Image7.jpg", "data/SpaceRun/Image8.jpg"],
+    "short": "Mobilna gra zręcznościowa typu 'Endless runner' z dynamiczną muzyką i sklepem z postaciami.",
+    "description": "Space Run to dynamiczna mobilna gra zręcznościowa, w której celem jest zdobycie jak najwyższego wyniku. Gracz zbiera monety, które może wykorzystać w sklepie do odblokowywania nowych postaci.\n\nGra oferuje wciągającą oprawę dźwiękową, efekty specjalne oraz wibracje, które zwiększają immersję i satysfakcję z rozgrywki.",
+    "technologies": ["Unity", "C#"],
+    "images": ["data/SpaceRun/Image1.jpg", "data/SpaceRun/Image2.jpg", "data/SpaceRun/Image3.jpg", "data/SpaceRun/Image4.jpg", "data/SpaceRun/Image5.jpg", "data/SpaceRun/Image6.jpg", "data/SpaceRun/Image7.jpg", "data/SpaceRun/Image8.jpg"],
     "repo": ""
   }
 ]
