@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="pl">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Przesuwane sekcje X</title>
+    <link href="https://fonts.googleapis.com/css2?family=Fira+Code&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+    <canvas id="canvas"></canvas>
+    <div class="main">
+        <button class="nav-arrow left-arrow" onclick="prevSlide()">←</button>
+        <button class="nav-arrow right-arrow" onclick="nextSlide()">→</button>
+
+        <div class="slides-container" id="slides">
+            <div class="slide" id="about">
+                <div class="box" id="box-slide">
+                    <h2>Mariusz Bienasz</h2>
+                    <h5>Junior Web Developer</h5>
+                    <p>
+                        Zaczęło się od prób instalowania modów do gier — często kończyło się zawirusowaniem systemu, ale
+                        wtedy właśnie zajrzałem „pod maskę” komputerów. Szybko odkryłem, że HTML to nie choroba, tylko
+                        coś, co pozwala tworzyć własne strony. I tak już zostało.
+                        <br>
+                        <br>
+                        Lubię czystą składnię, ciemny motyw IDE i to uczucie, gdy po godzinie debugowania okazuje się,
+                        że brakowało średnika. Stale się uczę i tworzę rzeczy, z których byłby dumny mój 10-letni ja —
+                        ten, który chciał robić gry i jeszcze nie znał słowa „dokumentacja”.
+                    </p>
+                    <button class="read-more" onclick="scrollDown()">Kontakt</button>
+                </div>
+            </div>
+        </div>
+
+        <div class="further-section" id="more-section">
+            <div class="more">
+                <div class="box" id="box-more">
+                    <h4>Numer Telefonu:</h4>
+                    <p>514 561 082</p>
+                    <h4>Adres e-mail:</h4>
+                    <p>mariuszbiensz1@gmail.com</p>
+                    <h4>Github:</h4>
+                    <p><a href="https://github.com/Marianno77" target="_blank">https://github.com/Marianno77</a></p>
+                    <button class="back" onclick="scrollToTop()">Powrót</button>
+                </div>
+            </div>
+        </div>
+
+    </div>
+    <script src="scripts.js"></script>
+</body>
+
+</html>

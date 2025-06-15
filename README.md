@@ -1,6 +1,6 @@
 # 👋 Cześć, jestem Mariusz!
 
-Zaczęło się od prób instalowania modów do gier — w praktyce kończyło się to najczęściej reinstalką systemu, ale właśnie wtedy po raz pierwszy poczułem fascynację tym, co dzieje się „pod maską”. Wkrótce potem odkryłem, że HTML to nie choroba, tylko coś, co pozwala mi tworzyć własne strony w Notatniku. I przepadłem.
+Zaczęło się od prób instalowania modów do gier — w praktyce kończyło się to najczęściej zawirusowaniem systemu, ale właśnie wtedy po raz pierwszy poczułem fascynację tym, co dzieje się „pod maską”. Wkrótce potem odkryłem, że HTML to nie choroba, tylko coś, co pozwala mi tworzyć własne strony w Notatniku. I przepadłem.
 
 Lubię pisać kod, który działa, a czasem nawet taki, który działa od razu. Mam słabość do czystej składni, ciemnego motywu IDE i tego uczucia, kiedy po godzinach walki z bugiem okazuje się, że zapomniałem średnika.
 
