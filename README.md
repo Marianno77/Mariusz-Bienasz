@@ -1,4 +1,4 @@
-# 👋 Cześć, jestem Mariusz!
+# [👋 Cześć, nazywam się Mariusz!](https://marianno77.github.io/Mariusz-Bienasz/)
 
 Zaczęło się od prób instalowania modów do gier — w praktyce kończyło się to najczęściej zawirusowaniem systemu, ale właśnie wtedy po raz pierwszy poczułem fascynację tym, co dzieje się „pod maską”. Wkrótce potem odkryłem, że HTML to nie choroba, tylko coś, co pozwala mi tworzyć własne strony w Notatniku. I przepadłem.
 
