@@ -84,20 +84,28 @@ const ctx = canvas.getContext('2d');
 
 let width, height;
 
+function calculateBubblesQuantity() {
+    return quantity = Math.min(Math.max(Math.floor(width / 50), 5), 30);
+}
+
+let bubblesQuantity = calculateBubblesQuantity();
+console.log(`Ilość bąbelków: ${bubblesQuantity}`);
+const bubbles = [];
+
 function resize() {
     width = window.innerWidth;
     height = document.documentElement.scrollHeight;
 
     canvas.width = width;
     canvas.height = height;
+
+    bubblesQuantity = calculateBubblesQuantity();
+    console.log(`Ilość bąbelków po resize: ${bubblesQuantity}`);
 }
 
 resize();
 window.addEventListener('resize', resize);
 
-const bubblesQuantity = 15;
-console.log(`Ilość bąbelków: ${bubblesQuantity}`);
-const bubbles = [];
 
 for (let i = 0; i < bubblesQuantity; i++) {
     bubbles.push({
