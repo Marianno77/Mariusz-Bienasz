@@ -95,7 +95,7 @@ function resize() {
 resize();
 window.addEventListener('resize', resize);
 
-const bubblesQuantity = 50;
+const bubblesQuantity = 25;
 const bubbles = [];
 
 for (let i = 0; i < bubblesQuantity; i++) {
