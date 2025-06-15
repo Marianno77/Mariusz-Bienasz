@@ -40,7 +40,7 @@
     "short": "Prosta strona internetowa dla salonu samochodowego",
     "description": "Projekt przedstawia nowoczesną stronę internetową marki Mercedes, zaprojektowaną z myślą o elegancji, funkcjonalności i łatwej nawigacji. Użytkownik ma możliwość przeglądania oferty pojazdów, konfigurowania wybranych modeli, a także bezpośredniego kontaktu oraz umówienia się na jazdę próbną.",
     "technologies":["Django", "HTML", "CSS", "JS"],
-    "images":["data/CarShowRoom/Image1.png", "data/CarShowRoom/Image2.png", "data/CarShowRoom/Image3.png", "data/CarShowRoom/Image4.png", "data/CarShowRoom/Image5.png", "data/CarShowRoom/Image6.png"],
+    "images":["data/CarShowroom/Image1.png", "data/CarShowroom/Image2.png", "data/CarShowroom/Image3.png", "data/CarShowroom/Image4.png", "data/CarShowroom/Image5.png", "data/CarShowroom/Image6.png"],
     "repo": "https://github.com/Marianno77/CarShowroom"
   },
   
